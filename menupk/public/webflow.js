@@ -10807,15 +10807,13 @@
         }
         function Q(q, x, g) {
           if (
-            (x
-              .removeClass(E)
-              .css({
-                opacity: "",
-                transition: "",
-                transform: "",
-                width: "",
-                height: "",
-              }),
+            (x.removeClass(E).css({
+              opacity: "",
+              transition: "",
+              transform: "",
+              width: "",
+              height: "",
+            }),
             g.addClass(E).each(m.intro),
             gt.redraw.up(),
             !q.intro)

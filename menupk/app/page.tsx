@@ -1,9 +1,16 @@
 import React from "react";
 import Script from "next/script";
+import Hero from "./components/Hero";
+import Navbar from "./components/Navbar";
+import Slider from "./components/Slider";
+import Head from "next/head";
 export default function Home() {
   return (
     <div>
-      <div
+      <Head>
+        <script src="/webflow.js" type="text/javascript"></script>
+      </Head>
+      {/* <div
         data-animation="default"
         className="navbar w-nav"
         data-easing2="ease"
@@ -69,7 +76,7 @@ export default function Home() {
                     <div className="link-block-underline"></div>
                   </a>
                 </div>
-                <a href="contact.html" className="button w-button">
+                <a href="contact" className="button w-button">
                   Book a Demo
                 </a>
               </div>
@@ -81,9 +88,12 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
-      <div className="section overflow-hidden">
+      <Navbar />
+      <Hero />
+
+      {/* <div className="section overflow-hidden">
         <div className="container">
           <div className="center-text">
             <div className="hero-text-holder">
@@ -145,7 +155,7 @@ export default function Home() {
                 className="animate-on-load-3rd"
               >
                 <div className="hero-button-holder">
-                  <a href="contact.html" className="button arrow w-button">
+                  <a href="contact" className="button arrow w-button">
                     Book a Demo Now
                   </a>
                   <a href="#More" className="gradient-link w-inline-block">
@@ -322,7 +332,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <div id="More" className="section">
         <div className="container _4em">
@@ -925,7 +935,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div
+      {/* <div
         data-w-id="3e43162d-984f-8c1f-4e23-d1e996c3b76f"
         className="section scroll"
       >
@@ -1037,7 +1047,8 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
+      <Slider />
 
       <div id="Features" className="section grey-section">
         <div className="container _6em">
@@ -1172,7 +1183,7 @@ export default function Home() {
               </div>
               <div className="top-margin-l">
                 <div className="fade-in-move-on-scroll">
-                  <a href="contact.html" className="button arrow w-button">
+                  <a href="contact" className="button arrow w-button">
                     Request a demo
                   </a>
                 </div>
@@ -2443,7 +2454,7 @@ export default function Home() {
                 </p>
               </div>
               <div className="fade-in-move-on-scroll">
-                <a href="contact.html" className="button arrow w-button">
+                <a href="contact" className="button arrow w-button">
                   Request a demo
                 </a>
               </div>
@@ -2514,11 +2525,13 @@ export default function Home() {
         crossOrigin="anonymous"
         strategy="lazyOnload"
       />
-      <Script src="/webflow.js" strategy="lazyOnload" />
+
       <Script
         src="https://smartarget.online/loader.js?type=int&u=50485570ca99da6aba6c6a665db5b46981620559&source=webflow_whatsapp"
         strategy="lazyOnload"
       />
+
+      <Script src="/webflow.js" strategy="lazyOnload" />
     </div>
   );
 }

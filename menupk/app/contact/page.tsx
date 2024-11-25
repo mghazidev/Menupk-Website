@@ -1,9 +1,10 @@
 import React from "react";
 import Script from "next/script";
+import Navbar from "../components/Navbar";
 export default function Contact() {
   return (
     <>
-      <div
+      {/* <div
         data-animation="default"
         className="navbar w-nav"
         data-easing2="ease"
@@ -81,7 +82,8 @@ export default function Contact() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
+      <Navbar />
       <div className="section">
         <div className="container">
           <div className="fade-in-slace-on-scroll">
@@ -357,7 +359,7 @@ export default function Contact() {
       </div>
       <div className="footer">
         <div className="container">
-          <div className="w-layout-grid grid-8-col">
+          {/* <div className="w-layout-grid grid-8-col">
             <div
               id="w-node-_8b3914f6-0a6d-8c3b-f9b8-6366871866d8-0a144c54"
               className="fade-in-move-on-scroll"
@@ -385,7 +387,7 @@ export default function Contact() {
                 </a>
               </div>
             </div>
-          </div>
+          </div> */}
           <div className="footer-flex-container">
             <a href="#" className="footer-logo-link">
               <img src="images/M-1-01-1.svg" alt="" className="footer-image" />

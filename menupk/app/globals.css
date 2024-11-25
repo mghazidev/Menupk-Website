@@ -1,7 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+/* @import "/public/styles/webflow.css";
+@import "/public/styles/normalize.css"; */
 @import "./styles/normalize.css";
 @import "./styles/webflow.css";
 
@@ -691,6 +692,11 @@ blockquote {
   width: 160px;
   min-width: 160px;
   max-width: 100%;
+}
+
+.w-nav-brand {
+  position: relative !important;
+  left: auto !important;
 }
 
 .nav-buttons-container {
