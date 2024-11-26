@@ -32,7 +32,7 @@ const Navbar = () => {
             > */}
             <div onClick={homeclick} style={{ cursor: "pointer" }}>
               <img
-                className="brand w-nav-brand w--current"
+                className="brand  w-nav-brand w--current object-contain "
                 src="images/M-1-01-1.png"
                 loading="lazy"
                 width="Auto"

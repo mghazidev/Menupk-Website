@@ -3,13 +3,10 @@ import Script from "next/script";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Slider from "./components/Slider";
-import Head from "next/head";
+import ScrollSection from "./components/ScrollSection";
 export default function Home() {
   return (
     <div>
-      <Head>
-        <script src="/webflow.js" type="text/javascript"></script>
-      </Head>
       {/* <div
         data-animation="default"
         className="navbar w-nav"
@@ -1048,7 +1045,8 @@ export default function Home() {
           </div>
         </div>
       </div> */}
-      <Slider />
+      <ScrollSection />
+      {/* <Slider /> */}
 
       <div id="Features" className="section grey-section">
         <div className="container _6em">
