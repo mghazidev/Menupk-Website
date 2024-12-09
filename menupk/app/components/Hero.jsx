@@ -3,10 +3,10 @@ import React from "react";
 const Hero = () => {
   return (
     <div>
-      <div class="section overflow-hidden">
-        <div class="container">
-          <div class="center-text">
-            <div class="hero-text-holder">
+      <div className="section overflow-hidden">
+        <div className="container">
+          <div className="center-text">
+            <div className="hero-text-holder">
               <div
                 // style="-webkit-transform:translate3d(0, 30%, 0) scale3d(0.95, 0.95, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 30%, 0) scale3d(0.95, 0.95, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 30%, 0) scale3d(0.95, 0.95, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 30%, 0) scale3d(0.95, 0.95, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
                 // style={{
@@ -22,16 +22,16 @@ const Hero = () => {
                 // }}
                 className="animate-on-load-1st"
               >
-                <div class="hero-text">
-                  <span class="gradient-text">Revitalize</span> your Restaurants
-                  Online Presence with Menu Pk.
+                <div className="hero-text">
+                  <span className="gradient-text">Revitalize</span> your
+                  Restaurants Online Presence with Menu Pk.
                 </div>
               </div>
               <div
                 //   style="-webkit-transform:translate3d(0, 30%, 0) scale3d(0.95, 0.95, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 30%, 0) scale3d(0.95, 0.95, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 30%, 0) scale3d(0.95, 0.95, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 30%, 0) scale3d(0.95, 0.95, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
                 className="animate-on-load-2st"
               >
-                <div class="paragraph-hero">
+                <div className="paragraph-hero">
                   <p>
                     Transform yout restaurant&#x27;s online presence seamlessly
                     with Menu PK, and connect with your customers like never
@@ -45,8 +45,8 @@ const Hero = () => {
                 //    style="-webkit-transform:translate3d(0, 30%, 0) scale3d(0.95, 0.95, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 30%, 0) scale3d(0.95, 0.95, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 30%, 0) scale3d(0.95, 0.95, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 30%, 0) scale3d(0.95, 0.95, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
                 className="animate-on-load-3rd"
               >
-                <div class="hero-button-holder">
-                  <a href="/contact" class="button arrow w-button">
+                <div className="hero-button-holder">
+                  <a href="/contact" className="button arrow w-button">
                     Book a Demo Now
                   </a>
                   <a href="#More" className="gradient-link w-inline-block">
@@ -60,9 +60,9 @@ const Hero = () => {
             //    style="-webkit-transform:translate3d(0, 30%, 0) scale3d(0.95, 0.95, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 30%, 0) scale3d(0.95, 0.95, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 30%, 0) scale3d(0.95, 0.95, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 30%, 0) scale3d(0.95, 0.95, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
             className="animate-on-load-4rd"
           >
-            <div class="app-holder">
-              <div class="app-container">
-                <div class="app-main-photo">
+            <div className="app-holder">
+              <div className="app-container">
+                <div className="app-main-photo">
                   <img
                     src="images/LP-1-.png"
                     loading="lazy"
@@ -72,7 +72,7 @@ const Hero = () => {
                     className="app-photo"
                   />
                 </div>
-                <div class="app-info-01">
+                <div className="app-info-01">
                   <img
                     src="images/Earnings-Image.jpg"
                     loading="lazy"
@@ -95,11 +95,11 @@ const Hero = () => {
               </div>
             </div>
           </div>
-          <div class="logo-grid-holder">
+          <div className="logo-grid-holder">
             <div className="w-layout-grid logo-grid">
               <div
                 id="w-node-ddf35f60-4046-a5dc-8dfc-7a16218a2043-fcf188fa"
-                class="logo-small-container"
+                className="logo-small-container"
               >
                 <img
                   src="images/Logo01.svg"
@@ -110,105 +110,105 @@ const Hero = () => {
               </div>
               <div
                 id="w-node-ed6e05a7-8859-5c2e-bfa6-5a34d46c5535-fcf188fa"
-                class="logo-small-container"
+                className="logo-small-container"
               >
                 <img
                   src="images/Logo02.svg"
                   loading="lazy"
                   alt=""
-                  class="logo-small"
+                  className="logo-small"
                 />
               </div>
               <div
                 id="w-node-_38e6cc19-86ef-7eaa-1ab1-b4758b264793-fcf188fa"
-                class="logo-small-container"
+                className="logo-small-container"
               >
                 <img
                   src="images/Logo03.svg"
                   loading="lazy"
                   alt=""
-                  class="logo-small"
+                  className="logo-small"
                 />
               </div>
               <div
                 id="w-node-_2c5230ad-7a3e-1078-2648-792bc8a3d83f-fcf188fa"
-                class="logo-small-container"
+                className="logo-small-container"
               >
                 <img
                   src="images/Logo04.svg"
                   loading="lazy"
                   alt=""
-                  class="logo-small"
+                  className="logo-small"
                 />
               </div>
               <div
                 id="w-node-_4ffe437a-249e-b0bf-4319-d5ced5949c15-fcf188fa"
-                class="logo-small-container"
+                className="logo-small-container"
               >
                 <img
                   src="images/Logo05.svg"
                   loading="lazy"
                   alt=""
-                  class="logo-small"
+                  className="logo-small"
                 />
               </div>
               <div
                 id="w-node-a11f21d4-8fb0-6c15-87e3-d6c169a6536f-fcf188fa"
-                class="logo-small-container"
+                className="logo-small-container"
               >
                 <img
                   src="images/Logo06.svg"
                   loading="lazy"
                   alt=""
-                  class="logo-small"
+                  className="logo-small"
                 />
               </div>
               <div
                 id="w-node-_209d1c9a-5c8e-b2b8-a90f-cc9d58a26396-fcf188fa"
-                class="logo-small-container"
+                className="logo-small-container"
               >
                 <img
                   src="images/Logo07.svg"
                   loading="lazy"
                   alt=""
-                  class="logo-small"
+                  className="logo-small"
                 />
               </div>
               <div
                 id="w-node-_6c110cba-70eb-d829-f5bf-8ff72d91f759-fcf188fa"
-                class="logo-small-container"
+                className="logo-small-container"
               >
                 <img
                   src="images/Logo08.svg"
                   loading="lazy"
                   alt=""
-                  class="logo-small"
+                  className="logo-small"
                 />
               </div>
               <div
                 id="w-node-_0d8e1bb2-4dcf-58bc-ddb2-2969473a2235-fcf188fa"
-                class="logo-small-container"
+                className="logo-small-container"
               >
                 <img
                   src="images/Logo09.svg"
                   loading="lazy"
                   alt=""
-                  class="logo-small"
+                  className="logo-small"
                 />
               </div>
               <div
                 id="w-node-afed102e-1e94-d6d2-0ddb-965b06c57825-fcf188fa"
-                class="logo-small-container"
+                className="logo-small-container"
               >
                 <img
                   src="images/Logo10.svg"
                   loading="lazy"
                   alt=""
-                  class="logo-small"
+                  className="logo-small"
                 />
               </div>
             </div>
-            <div class="fade-in-move-on-scroll">
+            <div className="fade-in-move-on-scroll">
               <p>Trusted by Top-tier product campanies</p>
             </div>
           </div>

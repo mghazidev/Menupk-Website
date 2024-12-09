@@ -26,7 +26,7 @@
 body {
   color: #fff;
   background-color: #000;
-  font-family: Outfit, sans-serif;
+  font-family: var(--font-outfit), sans-serif;
   font-size: 14px;
   line-height: 1.2;
   position: relative;
@@ -1530,10 +1530,19 @@ blockquote {
   display: none;
 }
 
+.sticky-navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
 .list {
   margin-top: 24px;
   padding-bottom: 0;
   padding-left: 20px;
+  list-style-type: disc;
 }
 
 .bullet-list {

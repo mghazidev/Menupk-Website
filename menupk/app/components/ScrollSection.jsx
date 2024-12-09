@@ -82,9 +82,9 @@ const Card = ({ card }) => {
       key={card.id}
       className="item fade-in-move-on-scroll group relative h-screen w-[100vw]  overflow-hidden "
     >
-      <div class="div-block-11">
-        <h1 class="item1-heading h-[100px] md:h-[auto]">{card.title}</h1>
-        <p class="paragraph-8  h-[120px] md:h-[auto]">{card.description}</p>
+      <div className="div-block-11">
+        <h1 className="item1-heading h-[100px] md:h-[auto]">{card.title}</h1>
+        <p className="paragraph-8  h-[120px] md:h-[auto]">{card.description}</p>
       </div>
       <img
         src={card.url}

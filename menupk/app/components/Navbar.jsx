@@ -1,5 +1,4 @@
 "use client";
-import Link from "next/link";
 import React from "react";
 import { useRouter } from "next/navigation";
 
@@ -11,7 +10,7 @@ const Navbar = () => {
   };
 
   return (
-    <div>
+    <div className="sticky-navbar">
       <div
         data-animation="default"
         className="navbar w-nav"
@@ -33,7 +32,7 @@ const Navbar = () => {
             <div onClick={homeclick} style={{ cursor: "pointer" }}>
               <img
                 className="brand  w-nav-brand w--current object-contain "
-                src="images/M-1-01-1.png"
+                src="images/M-1-01-1.svg"
                 loading="lazy"
                 width="Auto"
                 alt=""
